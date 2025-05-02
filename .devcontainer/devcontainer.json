@@ -1,4 +1,8 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {"ghcr.io/wxw-matt/devcontainer-features/apt:0": {}}
+    "name": "systemd on Codespaces",
+    "build": {
+        "dockerfile": "Containerfile"
+    },
+    "overrideCommand": false,
+    "privileged": true
 }
