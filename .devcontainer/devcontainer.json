@@ -1,8 +1,0 @@
-{
-    "name": "systemd on Codespaces",
-    "build": {
-        "dockerfile": "Containerfile"
-    },
-    "overrideCommand": false,
-    "privileged": true
-}
